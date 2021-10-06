@@ -4,14 +4,31 @@
     <p><b>Authors</b>: Yihan Wu, Xi Wang, Shaofei Zhang, Lei He, Ruihua Song</p>
     <p><b>Abstract</b>: As speech style is a compound perception that is affected by both acoustic features and linguistic content, synthesizing expressive audio for text-to-speech (TTS) is a huge challenge, especially for complex content from various domains, like audiobooks. Though utilizing style-based TTS performs well in synthesizing expressive audio, predicting style from text relies on annotated data which is costly to acquire and difficult to define accurately.In this paper, we propose a novel framework that learning style representation from abundant plain text in a self-supervised manner with the help of an existing small emotion lexicon, contrastive learning and deep clustering. Then, style representation works as a conditioned embedding on a multi-style based Transformer TTS to guide synthesizing speech with appropriate expressiveness from context, without any reference audio or explicit labels. Compared with TTS system leveraging predicted style tag which is trained with same dataset, our proposed method achieves outperformed subjective results on both in-domain and out-domain test sets in audiobooks speech corpus. Moreover, with implicit style representation, the emotion transition of synthesized audio in long paragraph performs more natural.</p>
     <h2> 1. Synthesized audio of in-domain dataset </h2>
-    <p>1.1 text: 别喝太多。</p>
-    <p>          Don't drink too much.</p>
-    <audio controls="controls">
+    <table border="1">
+      <tr>
+        <td><p>1.1 text: 别喝太多。</p></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td> <p> Don't drink too much.</p></td>
+      </tr>
+    </table>
+    <tr>
+      <td>baseline:</td>
+      <td> <audio controls="controls">
       <source src="1_b_1.wav" type="audio/wav">
-    </audio>
-    <audio controls="controls">
+    </audio></td>
+    </tr>
+    <tr>
+      <td>Ours:</td>
+      <td> <audio controls="controls">
       <source src="1_o_1.wav" type="audio/wav">
-    </audio>
+    </audio></td>
+    </tr>
+    
+   
+   
+    
     <p>1.1 text: 季浅言，你过分了！</p>
     <p>Qianyan Ji, you are out of the line!</p>
      <audio controls="controls">
