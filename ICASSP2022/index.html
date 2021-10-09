@@ -1,7 +1,7 @@
 <html>
   <body>
     <h1> SELF-SUPERVISED CONTEXT-AWARE STYLE REPRESENTATION FOR EXPRESSIVESPEECH SYNTHESIS </h1>
-    <p><b>Authors</b>: Yihan Wu, Xi Wang, Shaofei Zhang, Lei He, Ruihua Song</p>
+    <p><b>Authors</b>: Yihan Wu, Xi Wang, Shaofei Zhang, Lei He, Ruihua Song, Jian-Yun Nie</p>
     <p><b>Abstract</b>: As speech style is a compound perception that is affected by both acoustic features and linguistic content, synthesizing expressive audio for text-to-speech (TTS) is a huge challenge, especially for complex content from various domains, like audiobooks. Though utilizing style-based TTS performs well in synthesizing expressive audio, predicting style from text relies on annotated data which is costly to acquire and difficult to define accurately.In this paper, we propose a novel framework that learning style representation from abundant plain text in a self-supervised manner with the help of an existing small emotion lexicon, contrastive learning and deep clustering. Then, style representation works as a conditioned embedding on a multi-style based Transformer TTS to guide synthesizing speech with appropriate expressiveness from context, without any reference audio or explicit labels. Compared with TTS system leveraging predicted style tag which is trained with same dataset, our proposed method achieves outperformed subjective results on both in-domain and out-domain test sets in audiobooks speech corpus. Moreover, with implicit style representation, the emotion transition of synthesized audio in long paragraph performs more natural.</p>
     <h2> 1. Synthesized audio of in-domain dataset </h2>
     <p>1.1 text: 别喝太多。</p>
@@ -37,7 +37,7 @@
     
     <h2> 2. Synthesized audio of out-domain dataset </h2>
      <p>1.1 text: 一说话就能把人给呛死，几年没见还是这么没脸没皮，也不看看眼下是什么情况。</p>
-    <p> You can kill a man by talking. I haven't seen you for years but he's still so shameless</p>
+    <p> You can kill a man by talking. I haven't seen you for years but you are still so shameless</p>
      <tr>
       <td>baseline:</td>
       <td> <audio controls="controls">
@@ -51,7 +51,7 @@
     </audio></td>
     </tr>
     <p>1.2 text: 你小子是成了钢铁侠呢，还是植了皮的机器人，怎么这么硬？</p>
-    <p>Are you iron Man, or are you a robot with skin grafts?</p>
+    <p>Are you iron Man, or a robot with human skin? Why are you so grumpy?</p>
      <tr>
       <td>baseline:</td>
       <td> <audio controls="controls">
