@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Yihan Wu"
-  avatar           : "photo.png"
+  avatar           : "images/photo.png"
   bio              : "Ph.D. in Artifitial Intelligence at Renmin University of China"
   location         : "Beijing, China"
   employer         :
