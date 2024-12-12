@@ -35,3 +35,12 @@ Work experience
 
   Worked with [Xi Wang](https://www.linkedin.com/in/xi-wang-502b2029/?originalSubdomain=cn) and [Lei He](https://scholar.google.com/citations?user=EKl9yY8AAAAJ&hl=zh-CN)
 
+Selected papers
+======
+
+[Google Scholar will be more up-to-date.](https://scholar.google.com/citations?user=P2K_kOUAAAAJ&hl=zh-CN)
+
+### Adaspeech 4: Adaptive text to speech in zero-shot scenarios  
+**Yihan Wu**, Xu Tan, Bohan Li, Lei He, Sheng Zhao, Ruihua Song, Tao Qin, Tie-Yan Liu 
+*INTERSPEECH 2022*  
+[paper](https://arxiv.org/abs/2204.00436)
