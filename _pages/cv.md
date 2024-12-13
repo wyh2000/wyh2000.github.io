@@ -9,56 +9,39 @@ redirect_from:
 
 {% include base_path %}
 
+Please check my up-to-date CV [here](https://drive.google.com/file/d/1v37sSi1s6XDRkb_I6-zCc5KP9EelOWMJ/view?usp=sharing).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Artificial Intelligence, Renmin University of China, 2026 (expected)
+* B.S. in Computer Science, Shandong University, 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sep. 2023 - Sep. 2024: Visiting Scholar
+  * Carnegie Mellon University.
+  * Researches included: Multimodal speech recognition, speech language models.
+  * Worked with Prof. [Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe).
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Oct. 2021 - Oct. 2022: Research Intern
+  * Microsoft Research Asia.
+  * Researches included: Adaptive speech synthesis, speech translation.
+  * Worked with [Xu Tan](https://tan-xu.github.io/).
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* May 2021 - Oct. 2021: Research Intern
+  * Microsoft C+AI, Speech Team
+  * Researches included: Expressive TTS
   
-Talks
+Open-source Projects 
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* ESPNet
+  * ESPNet-Codec
+  * Audiovisual ASR
+* Microsoft speech research
+* Discrete vocoder
+
   
-Teaching
+<!-- Honors and awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
